@@ -1,3 +1,48 @@
 body {
-    padding-top: 5rem;
+	padding-top: 5rem;
+	padding-left: 5rem;
+	font-family: Arial;
+}
+
+h1, label {
+	font-weight: bold;
+}
+
+hr {
+	border: 0.5px solid grey;
+	margin-top: -10px;
+	margin-bottom: 25px;
+}
+
+#container {
+	margin-top: 40px;
+}
+
+#name, #email, #subject, #message {
+	border-radius: 5px;
+	margin-bottom: 20px;
+	height: 40px;
+	width: 350px;
+}
+
+.form-group {
+	margin-top: 10px;
+}
+
+#message {
+	height: 100px;
+	width: 400px;
+}
+
+#subject {
+	margin-bottom: 40px;
+}
+
+#submitBtn {
+	color: white;
+	background-color: #2987cd;
+	border-color: #2987cd;
+	border-radius: 5px;
+	padding: 10px 30px;
+	margin-bottom: 5rem;
 }
